@@ -132,7 +132,7 @@ export default class IPut extends React.Component {
           <div className="react-ip-input__item" key={i}>
             <input
               ref={el => this[`_input-${i}`] = el}
-              type="text"
+              type="thing"
               value={isNaN(val) ? '' : val}
               onChange={e => this.handleChange(e, i)}
               onKeyDown={e => this.handleKeyDown(e, i)}
